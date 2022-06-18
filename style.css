@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+    display:grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+   
+    background-color: black;
+   
+    
+}
+
+.asd {
+    color:rgb(126, 13, 212);
+    font-size: 64px;
+    grid-column:2;
+    justify-content:center;
+}
+
+
+.hyperlinks{
+    grid-column:1;
+    
+
+}
+
+.hyperlinks.one {
+    animation-name: translate;
+    animation-duration: 5s;
+    
+    animation-fill-mode: forwards; /*this stops things where animation ends.*/ 
+    
+    /*animation-iteration-count: 2;
+    animation-direction: alternate;  this makes animation repeat itself  */ 
+    
+}
+
+.hyperlinks.two {
+    animation-name: translate1;
+    animation-duration: 5s;  
+    animation-fill-mode: forwards;  
+   
+    
+}
+
+.hyperlinks.three {
+    animation-name: translate2;
+    animation-duration: 5s;  
+    animation-fill-mode: forwards;  
+  
+}
+
+.hyperlinks.four {
+    animation-name: translate3;
+    animation-duration: 5s;  
+    animation-fill-mode: forwards;  
+   
+}
+
+
+
+
+
+@keyframes translate{
+    
+    50%  {transform:translateX(15%);background-color: yellow }
+    80% {transform:translateX(0%);background-color: black}
+    100% {background-color:yellow;}
+}
+
+
+
+
+@keyframes translate1{
+    50% {transform:translateX(30%);background-color: rgb(66, 255, 59);}
+    80% {transform:translateX(0);background-color: black;}
+    100% {background-color: rgb(66, 255, 59);}
+   
+}
+
+@keyframes translate2{
+    50% {transform:translateX(45%); background-color: rgb(126, 13, 212);}
+    80% {transform:translateX(0%);background-color: black;}
+    100% {background-color: rgb(126, 13, 212);}
+    
+}
+
+@keyframes translate3{
+    40% {transform:translateX(60%);background-color: rgb(0, 179, 255);}
+    50% {transform:translateX(63%);}
+    55% {transform:translateX(75%);}
+    65% {transform:translateX(42%);}  
+    72% {transform:translateX(35%);}  
+    78% {transform:translate(100%);}
+    80% {transform:translateX(60%);}
+    
+    95% {background-color: black;}
+    100% {transform:translateX(0%);background-color: rgb(0, 179, 255);}
+}
