@@ -1,0 +1,88 @@
+body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+
+
+.container{
+    display:grid;
+    
+    grid-template-rows: 1fr 2fr ;
+}
+
+
+.header {
+    background-color: green;
+}
+img{
+    display:block;
+    margin:auto;
+    width: auto;
+}
+ol {
+    list-style-type: none;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin:0;
+    padding:0;
+   
+}
+
+
+ol li{
+    background-color:orange;
+}
+
+ol li:hover{
+    animation-name:huehuehue;
+    animation-duration:100s;
+    animation-direction:forward;
+    transition: 1000s;
+    
+}
+
+@keyframes huehuehue{
+    0.6% {color:white;background-color:red;}
+    100% {color:black;background-color:orange;}
+}
+
+a {
+    text-decoration:none;
+    color:white;
+    font-size:24px;
+}
+
+.footer{
+    text-align:top;
+    padding-top: 3%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  
+}
+
+.text{
+    animation-name:run;
+    animation-duration:2.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes run{
+    40% {transform:translateX(100vh);}
+    80%{transform:translateX(0vh);}
+}
+
+
+
+
+
+

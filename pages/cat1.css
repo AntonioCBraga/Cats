@@ -1,9 +1,22 @@
 body{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2.25fr 0.5fr 2.25fr;
-    margin:0%;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    
 }
+
+.mistahbox{
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows: 2.25fr 0.5fr 6fr;
+    margin:0;
+    padding:0;
+}
+
+
+
+
 img{
     display:block;
     margin:auto;
@@ -21,14 +34,76 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-right:5%;
-    border-left:5%;
+    
 }
 
 ul li{
     display:inline;
+   
 }
 
 .p2{
     background-color:purple;
+    padding-right:30px;
+    
 }
+
+.p3{
+    background-color:darkred;
+    display:grid;
+
+    
+    
+}
+
+.p3.gocenterpls{
+    align-content: center;
+    justify-content: center;
+    font-size:24px;
+}
+
+
+.footer{
+    background-color: green;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    display:grid;
+    grid-template-columns:10% 90%;
+}
+
+
+/* its something...*/
+
+.arrow-left {
+    transform:translateX(75px);
+    margin-top:20px;
+    grid-column:2;
+    width: 0; 
+    height: 0; 
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-right:8px solid black; 
+    
+    
+    animation-name:up-down-opacity;
+    animation-duration:3.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards forwards;  
+  }
+
+
+
+
+  @keyframes up-down-opacity{
+    12.5%     {opacity:1; transform:translateX(50px);}
+    25%  {opacity:0;}
+    37.5%    {opacity:1;transform:translateX(25px);}
+    50%  {opacity:0;}
+    62.5%    {opacity:1;transform:translateX(0px);}
+    75%  {opacity:0;}
+    82.5%    {opacity:1;transform:translateX(75px);}
+    100%  {opacity:0;}
+       
+  }

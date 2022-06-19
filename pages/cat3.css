@@ -1,0 +1,863 @@
+html{
+    height:100%;
+}
+
+
+
+body{
+   
+   width:100%;
+   min-height:100vh;
+   margin:0;
+   display:grid;
+   grid-template-columns:100%;
+   grid-template-rows:100%;
+
+
+}
+
+
+/*Lets try somett*/
+/*columns*2
+  rows mantain*/
+.middlepuzzle{
+    
+    display:grid;
+    background-color:orange;
+    grid-template-columns: repeat(60,1fr);
+    grid-template-rows:repeat(30,1fr); 
+    
+}
+
+/*i know i know probably a faster way to code this ... first website i made*/
+.flip-vertical-left {
+	-webkit-animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            animation: bubble 1.0s forwards;
+}
+
+/*right year going down*/
+.middlepuzzle.around00{
+    grid-column:53;
+    grid-row:6;
+    background-color:black;
+}
+
+.middlepuzzle.around01{
+    grid-column:53;
+    grid-row:7;
+    background-color:black;
+}
+.middlepuzzle.around02{
+    grid-column:53;
+    grid-row:8;
+    background-color:black;
+}
+.middlepuzzle.around03{
+    grid-column:53;
+    grid-row:9;
+    background-color:black;
+}
+.middlepuzzle.around04{
+    grid-column:53;
+    grid-row:10;
+    background-color:black;
+}
+.middlepuzzle.around05{
+    grid-column:53;
+    grid-row:11;
+    background-color:black;
+}
+.middlepuzzle.around06{
+    grid-column:53;
+    grid-row:12;
+    background-color:black;
+}
+.middlepuzzle.around07{
+    grid-column:53;
+    grid-row:13;
+    background-color:black;
+}
+.middlepuzzle.around08{
+    grid-column:53;
+    grid-row:14;
+    background-color:black;
+}
+.middlepuzzle.around09{
+    grid-column:53;
+    grid-row:15;
+    background-color:black;
+}
+/*stops year descent*/
+
+
+
+
+
+
+.middlepuzzle.around0{
+    grid-column:53;
+    grid-row:5;
+    background-color:black;
+
+}
+
+.middlepuzzle.around1{
+    grid-column:52;
+    grid-row:5;
+    background-color:black;
+    animation-name:flip-vertical-left;
+    animation-duration:2s;
+}
+.middlepuzzle.around2{
+    grid-column:51;
+    grid-row:6;
+    background-color:black;
+}
+
+.middlepuzzle.around3{
+    grid-column:50;
+    grid-row:7;    
+    background-color:black;
+}
+
+.middlepuzzle.around4{
+    grid-column:49;
+    grid-row:8;    
+    background-color:black;
+}
+
+.middlepuzzle.around5{
+    grid-column:48;
+    grid-row:8;    
+    background-color:black;
+}
+
+.middlepuzzle.around6{
+    grid-column:47;
+    grid-row:8;    
+    background-color:black;
+}
+
+.middlepuzzle.around7{
+    grid-column:46;
+    grid-row:8;    
+    background-color:black;
+}
+
+.middlepuzzle.around8{
+    grid-column:45;
+    grid-row:7;    
+    background-color:black;
+}
+
+.middlepuzzle.around9{
+    grid-column:44;
+    grid-row:6;    
+    background-color:black;
+}
+
+.middlepuzzle.around10{
+    grid-column:43;
+    grid-row:5;    
+    background-color:black;
+}
+
+.middlepuzzle.around11{
+    grid-column:42;
+    grid-row:5;    
+    background-color:black;
+}
+ /*the left year descent*/
+.middlepuzzle.around12{
+    grid-column:42;
+    grid-row:5; 
+    background-color:black;
+}
+
+.middlepuzzle.around13{
+    grid-column:42;
+    grid-row:6; 
+    background-color:black;
+}
+.middlepuzzle.around14{
+    grid-column:42;
+    grid-row:7; 
+    background-color:black;
+}
+.middlepuzzle.around15{
+    grid-column:42;
+    grid-row:8; 
+    background-color:black;
+}
+.middlepuzzle.around16{
+    grid-column:42;
+    grid-row:9; 
+    background-color:black;
+}
+.middlepuzzle.around17{
+    grid-column:42;
+    grid-row:10; 
+    background-color:black;
+}
+.middlepuzzle.around18{
+    grid-column:42;
+    grid-row:11; 
+    background-color:black;
+}
+.middlepuzzle.around19{
+    grid-column:42;
+    grid-row:12; 
+    background-color:black;
+}
+.middlepuzzle.around20{
+    grid-column:42;
+    grid-row:13; 
+    background-color:black;
+}
+.middlepuzzle.around21{
+    grid-column:42;
+    grid-row:14; 
+    background-color:black;
+}
+.middlepuzzle.around22{
+    grid-column:42;
+    grid-row:15; 
+    background-color:black;
+}
+.middlepuzzle.around23{
+    grid-column:43;
+    grid-row:16; 
+    background-color:black;
+}
+.middlepuzzle.around24{
+    grid-column:44;
+    grid-row:17; 
+    background-color:black;
+}
+.middlepuzzle.around25{
+    grid-column:45;
+    grid-row:18; 
+    background-color:black;
+}
+.middlepuzzle.around26{
+    grid-column:46;
+    grid-row:18; 
+    background-color:black;
+}
+.middlepuzzle.around27{
+    grid-column:47;
+    grid-row:18; 
+    background-color:black;
+}
+.middlepuzzle.around28{
+    grid-column:48;
+    grid-row:18; 
+    background-color:black;
+}
+.middlepuzzle.around29{
+    grid-column:49;
+    grid-row:18; 
+    background-color:black;
+}
+.middlepuzzle.around33{
+    grid-column:50;
+    grid-row:18; 
+    background-color:black;
+}
+.middlepuzzle.around30{
+    grid-column:51;
+    grid-row:17; 
+    background-color:black;
+}
+.middlepuzzle.around31{
+    grid-column:52;
+    grid-row:16; 
+    background-color:black;
+}
+.middlepuzzle.around32{
+    grid-column:53;
+    grid-row:15; 
+    background-color:black;
+}
+
+/*Body*/
+
+.middlepuzzle.body0{
+    grid-column:41;
+    grid-row:16; 
+    background-color:black;
+}
+.middlepuzzle.body1{
+    grid-column:40;
+    grid-row:16; 
+    background-color:black;
+}
+.middlepuzzle.body2{
+    grid-column:39;
+    grid-row:16; 
+    background-color:black;
+}
+.middlepuzzle.body3{
+    grid-column:38;
+    grid-row:16; 
+    background-color:black;
+}
+.middlepuzzle.body4{
+    grid-column:37;
+    grid-row:17; 
+    background-color:black;
+}
+.middlepuzzle.body5{
+    grid-column:36;
+    grid-row:18; 
+    background-color:black;
+}
+.middlepuzzle.body6{
+    grid-column:36;
+    grid-row:19; 
+    background-color:black;
+}
+.middlepuzzle.body7{
+    grid-column:36;
+    grid-row:20; 
+    background-color:black;
+}
+.middlepuzzle.body8{
+    grid-column:36;
+    grid-row:21; 
+    background-color:black;
+}
+
+/*tail around here*/
+.middlepuzzle.body9{
+    grid-column:36;
+    grid-row:22; 
+    background-color:black;
+}
+.middlepuzzle.body10{
+    grid-column:37;
+    grid-row:23; 
+    background-color:black;
+}
+.middlepuzzle.body11{
+    grid-column:38;
+    grid-row:23; 
+    background-color:black;
+}
+.middlepuzzle.body12{
+    grid-column:39;
+    grid-row:23; 
+    background-color:black;
+}
+.middlepuzzle.body13{
+    grid-column:40;
+    grid-row:23; 
+    background-color:black;
+}
+.middlepuzzle.body14{
+    grid-column:41;
+    grid-row:23; 
+    background-color:black;
+}
+/*go up here dwioaugdawiudaouwdgaouwdgyuadfaufdauowfdyaowuydfaouwdfyauoydfwouawfyd*/
+.middlepuzzle.body24{
+    grid-column:42;
+    grid-row:23; 
+    background-color:black;
+}
+.middlepuzzle.body15{
+    grid-column:43;
+    grid-row:23; 
+    background-color:black;
+}
+.middlepuzzle.body16{
+    grid-column:44;
+    grid-row:23; 
+    background-color:black;
+}
+.middlepuzzle.body17{
+    grid-column:45;
+    grid-row:23; 
+    background-color:black;
+}
+
+.middlepuzzle.body18{
+    grid-column:46;
+    grid-row:23; 
+    background-color:black;
+}
+
+.middlepuzzle.body19{
+    grid-column:47;
+    grid-row:23; 
+    background-color:black;
+}
+
+.middlepuzzle.body20{
+    grid-column:48;
+    grid-row:23; 
+    background-color:black;
+}
+
+.middlepuzzle.body21{
+    grid-column:49;
+    grid-row:23; 
+    background-color:black;
+}
+
+.middlepuzzle.body22{
+    grid-column:50;
+    grid-row:23; 
+    background-color:black;
+}
+
+.middlepuzzle.body23{
+    grid-column:51;
+    grid-row:23; 
+    background-color:black;
+}
+
+.middlepuzzle.body25{
+    grid-column:52;
+    grid-row:22; 
+    background-color:black;
+}
+.middlepuzzle.body26{
+    grid-column:51;
+    grid-row:21; 
+    background-color:black;
+}
+.middlepuzzle.body27{
+    grid-column:50;
+    grid-row:21; 
+    background-color:black;
+}
+.middlepuzzle.body28{
+    grid-column:49;
+    grid-row:21; 
+    background-color:black;
+}
+.middlepuzzle.body29{
+    grid-column:50;
+    grid-row:20; 
+    background-color:black;
+}
+.middlepuzzle.body30{
+    grid-column:50;
+    grid-row:19; 
+    background-color:black;
+}
+
+.middlepuzzle.body31{
+    grid-column:42;
+    grid-row:22; 
+    background-color:black;
+}
+
+.middlepuzzle.body32{
+    grid-column:41;
+    grid-row:21; 
+    background-color:black;
+}
+.middlepuzzle.body33{
+    grid-column:41;
+    grid-row:20; 
+    background-color:black;
+}
+.middlepuzzle.body34{
+    grid-column:41;
+    grid-row:19; 
+    background-color:black;
+}
+.middlepuzzle.body35{
+    grid-column:40;
+    grid-row:18; 
+    background-color:black;
+}
+.middlepuzzle.body36{
+    grid-column:39;
+    grid-row:18; 
+    background-color:black;
+}
+.middlepuzzle.body37{
+    grid-column:46;
+    grid-row:22; 
+    background-color:black;
+}
+.middlepuzzle.body38{
+    grid-column:46;
+    grid-row:21; 
+    background-color:black;
+}
+
+
+/*The tail !!!*/
+
+.middlepuzzle.tail0{
+    grid-column:35;
+    grid-row:22; 
+    background-color:black;
+}
+.middlepuzzle.tail1{
+    grid-column:34;
+    grid-row:22; 
+    background-color:black;
+}
+.middlepuzzle.tail2{
+    grid-column:33;
+    grid-row:22; 
+    background-color:black;
+}
+.middlepuzzle.tail3{
+    grid-column:32;
+    grid-row:22; 
+    background-color:black;
+}
+.middlepuzzle.tail4{
+    grid-column:31;
+    grid-row:21; 
+    background-color:black;
+}
+.middlepuzzle.tail5{
+    grid-column:30;
+    grid-row:20; 
+    background-color:black;
+}
+.middlepuzzle.tail6{
+    grid-column:30;
+    grid-row:19; 
+    background-color:black;
+}
+.middlepuzzle.tail7{
+    grid-column:30;
+    grid-row:18; 
+    background-color:black;
+}
+.middlepuzzle.tail8{
+    grid-column:30;
+    grid-row:17; 
+    background-color:black;
+}
+.middlepuzzle.tail9{
+    grid-column:30;
+    grid-row:16; 
+    background-color:black;
+}
+.middlepuzzle.tail10{
+    grid-column:31;
+    grid-row:15; 
+    background-color:black;
+}
+.middlepuzzle.tail11{
+    grid-column:32;
+    grid-row:14; 
+    background-color:black;
+}
+.middlepuzzle.tail12{
+    grid-column:33;
+    grid-row:13; 
+    background-color:black;
+}
+.middlepuzzle.tail13{
+    grid-column:34;
+    grid-row:13; 
+    background-color:black;
+}
+.middlepuzzle.tail14{
+    grid-column:35;
+    grid-row:14; 
+    background-color:black;
+}
+.middlepuzzle.tail15{
+    grid-column:35;
+    grid-row:15; 
+    background-color:black;
+}
+.middlepuzzle.tail16{
+    grid-column:34;
+    grid-row:16; 
+    background-color:black;
+}
+.middlepuzzle.tail17{
+    grid-column:33;
+    grid-row:16; 
+    background-color:black;
+}
+.middlepuzzle.tail18{
+    grid-column:32;
+    grid-row:17; 
+    background-color:black;
+}
+.middlepuzzle.tail19{
+    grid-column:32;
+    grid-row:18; 
+    background-color:black;
+}
+
+.middlepuzzle.tail21{
+    grid-column:32;
+    grid-row:19; 
+    background-color:black;
+}
+.middlepuzzle.tail22{
+    grid-column:33;
+    grid-row:20; 
+    background-color:black;
+}
+.middlepuzzle.tail23{
+    grid-column:34;
+    grid-row:20; 
+    background-color:black;
+}
+.middlepuzzle.tail24{
+    grid-column:35;
+    grid-row:20; 
+    background-color:black;
+}
+
+/*The face!!!!!*/
+
+.middlepuzzle.face0{
+    grid-column:43;
+    grid-row:15; 
+    background-color:pink;
+}
+.middlepuzzle.face1{
+    grid-column:44;
+    grid-row:15; 
+    background-color:pink;
+}
+.middlepuzzle.face2{
+    grid-column:44;
+    grid-row:14; 
+    background-color:black;
+}
+.middlepuzzle.face3{
+    grid-column:45;
+    grid-row:13; 
+    background-color:black;
+}
+.middlepuzzle.face4{
+    grid-column:46;
+    grid-row:14; 
+    background-color:black;
+}
+.middlepuzzle.face5{
+    grid-column:49;
+    grid-row:14; 
+    background-color:black;
+}
+.middlepuzzle.face6{
+    grid-column:50;
+    grid-row:13; 
+    background-color:black;
+}
+.middlepuzzle.face7{
+    grid-column:51;
+    grid-row:14; 
+    background-color:black;
+}
+.middlepuzzle.face8{
+    grid-column:51;
+    grid-row:15; 
+    background-color:pink;
+}
+.middlepuzzle.face9{
+    grid-column:52;
+    grid-row:15; 
+    background-color:pink;
+}
+
+
+
+/*fokin hello*/
+/*Do some opacity stuff here*/
+.middlepuzzle.H{
+    background-color:black;
+   
+}
+
+
+.middlepuzzle.H.first{
+    grid-column:5;
+    grid-row-start:5;
+    grid-row-end:12;
+    
+}
+.middlepuzzle.H.second{
+    grid-column-start:5;
+    grid-column-end:9;
+    grid-row:8;
+    
+}
+.middlepuzzle.H.third{
+    grid-column:9;
+    grid-row-start:5;
+    grid-row-end:12;
+    
+}
+
+.middlepuzzle.E{
+    background-color:black;
+}
+
+.middlepuzzle.E.first{
+    grid-column: 11;
+    grid-row-start:5;
+    grid-row-end:12;
+    
+}
+.middlepuzzle.E.second{
+    grid-column-start: 11;
+    grid-column-end: 15;
+    grid-row:5;
+}
+.middlepuzzle.E.third{
+    grid-column-start: 11;
+    grid-column-end: 15;
+    grid-row:8;
+}
+.middlepuzzle.E.fourth{
+    grid-column-start: 11;
+    grid-column-end: 15;
+    grid-row:11;
+}
+
+.middlepuzzle.L{
+    background-color:black;
+   
+}
+
+.middlepuzzle.L.first{
+    grid-column:17 ;
+    grid-row-start:5;
+    grid-row-end:12;
+}
+
+.middlepuzzle.L.second{
+    grid-column-start:17 ;
+    grid-column-end:21;
+    grid-row:11;
+}
+
+
+.middlepuzzle.LL{
+    background-color:black;
+   
+}
+
+.middlepuzzle.LL.first{
+    grid-column:22 ;
+    grid-row-start:5;
+    grid-row-end:12;
+}
+
+.middlepuzzle.LL.second{
+    grid-column-start:22;
+    grid-column-end:26 ;
+    grid-row:11;
+}
+
+.middlepuzzle.O {
+    background-color:black;
+}
+
+.middlepuzzle.O.first{
+    grid-column-start:28;
+    grid-column-end:31;
+    grid-row:5;
+}
+.middlepuzzle.O.second{
+    grid-column:27;
+    
+    grid-row-start:6;
+    grid-row-end:11;
+}
+
+.middlepuzzle.O.third{
+    grid-column-start:28;
+    grid-column-end:31;
+    grid-row:11;
+}
+
+.middlepuzzle.O.fourth{
+    grid-column:31;
+    grid-row-start:6;
+    grid-row-end:11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Where multiple animation will begin mwahhahahaha*/
+
+
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-6-19 18:6:9
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation flip-vertical-left
+ * ----------------------------------------
+ */
+
+
+
+
+
+
+
+/*
+-webkit-animation:swing 3600ms ease-in-out 6000s;
+-webkit-transform-origin:top;
+    on hover blah blah
+*/
+
+@-webkit-keyframes flip-vertical-left {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(-180deg);
+              transform: rotateY(-180deg);
+    }
+  }
+  @keyframes flip-vertical-left {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(-180deg);
+              transform: rotateY(-180deg);
+              background-color:orange;
+    }
+  }
+
+
+
+
+
+

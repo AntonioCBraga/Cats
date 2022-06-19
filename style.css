@@ -18,16 +18,62 @@ body{
 
 .hyperlinks{
     grid-column:1;
-    
-
+    /*margin-top:0;
+    margin-bottom:0;*/
 }
+
+.hyperlinksotherside {
+    grid-column:2;
+    height:10%;
+}
+
+.hyperlinksotherside.one{
+    background-color:yellow;
+    animation-name:opacity;
+    animation-duration:6s;
+}
+.hyperlinksotherside.two{
+    background-color: rgb(66, 255, 59);
+    animation-name:opacity;
+    animation-duration:6.5s;
+}
+.hyperlinksotherside.three{
+    background-color: rgb(126, 13, 212);
+    animation-name:opacity;
+    animation-duration:7s;
+}
+.hyperlinksotherside.four{
+    background-color: rgb(0, 179, 255);
+    animation-name:opacity;
+    animation-duration:7.5s;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+    font-size:24px;
+}
+
+
+
+
+/*work on this after...*/
+@keyframes opacity{
+    90% {opacity:0%;}
+    100%{opacity:100%;}
+}
+
+
+
+
 
 .hyperlinks.one {
     animation-name: translate;
     animation-duration: 5s;
     
-    animation-fill-mode: forwards; /*this stops things where animation ends.*/ 
-    
+    animation-fill-mode: forwards; /*this stops things where animation ends.*/
+    color:black;
+    text-decoration: none;
     /*animation-iteration-count: 2;
     animation-direction: alternate;  this makes animation repeat itself  */ 
     
