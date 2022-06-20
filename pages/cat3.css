@@ -29,7 +29,9 @@ body{
     background-color:orange;
     grid-template-columns: repeat(60,1fr);
     grid-template-rows:repeat(30,1fr); 
-    
+    /*
+    border: 2px solid red;
+    */
 }
 
 /*i know i know probably a faster way to code this ... first website i made*/
@@ -96,12 +98,17 @@ body{
 /*stops year descent*/
 
 .middlepuzzle.A{
+    background-color:black;
+}
+
+
+.middlepuzzle.A:hover{
+    animation-name:flip-vertical-left;
+    animation-duration:0.3s;
     
-    /*
-    -moz-animation: flip-vertical-left 2s;
-    -webkit-animation: flip-vertical-left 2s;
-    animation: flip-vertical-left 2s;
-    */
+    
+    
+    
 }
 
 
@@ -109,7 +116,7 @@ body{
 .middlepuzzle.A.around0{
     grid-column:53;
     grid-row:5;
-    background-color:black;
+   
 
 }
 
@@ -117,7 +124,7 @@ body{
 .middlepuzzle.A.around1{
     grid-column:52;
     grid-row:5;
-    background-color:black;
+    
     
 }
 .middlepuzzle.around2{
