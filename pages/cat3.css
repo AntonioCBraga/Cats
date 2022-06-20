@@ -1,3 +1,6 @@
+/*Line 97 - trying out animation stuff*/
+
+
 html{
     height:100%;
 }
@@ -35,6 +38,8 @@ body{
 	        animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
             animation: bubble 1.0s forwards;
 }
+
+
 
 /*right year going down*/
 .middlepuzzle.around00{
@@ -90,24 +95,30 @@ body{
 }
 /*stops year descent*/
 
+.middlepuzzle.A{
+    
+    /*
+    -moz-animation: flip-vertical-left 2s;
+    -webkit-animation: flip-vertical-left 2s;
+    animation: flip-vertical-left 2s;
+    */
+}
 
 
 
-
-
-.middlepuzzle.around0{
+.middlepuzzle.A.around0{
     grid-column:53;
     grid-row:5;
     background-color:black;
 
 }
 
-.middlepuzzle.around1{
+
+.middlepuzzle.A.around1{
     grid-column:52;
     grid-row:5;
     background-color:black;
-    animation-name:flip-vertical-left;
-    animation-duration:2s;
+    
 }
 .middlepuzzle.around2{
     grid-column:51;
@@ -835,6 +846,8 @@ body{
 */
 
 @-webkit-keyframes flip-vertical-left {
+ 
+
     0% {
       -webkit-transform: rotateY(0);
               transform: rotateY(0);
@@ -855,6 +868,22 @@ body{
               background-color:orange;
     }
   }
+
+  @-moz-keyframes flip-vertical-left {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+      }
+      100% {
+        -webkit-transform: rotateY(-180deg);
+                transform: rotateY(-180deg);
+                background-color:orange;
+            }
+  }
+
+
+
+
 
 
 
