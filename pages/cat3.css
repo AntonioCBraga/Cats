@@ -47,70 +47,75 @@ body{
 .middlepuzzle.around00{
     grid-column:53;
     grid-row:6;
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around01{
     grid-column:53;
     grid-row:7;
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around02{
     grid-column:53;
     grid-row:8;
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around03{
     grid-column:53;
     grid-row:9;
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around04{
     grid-column:53;
     grid-row:10;
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around05{
     grid-column:53;
     grid-row:11;
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around06{
     grid-column:53;
     grid-row:12;
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around07{
     grid-column:53;
     grid-row:13;
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around08{
     grid-column:53;
     grid-row:14;
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around09{
     grid-column:53;
     grid-row:15;
-    background-color:black;
+    background-color:orange;
 }
 /*stops year descent*/
 
 .middlepuzzle.A{
-    background-color:black;
+    background-color:orange;
 }
 
 
-.middlepuzzle.A:hover{
+.rotata{
     animation-name:flip-vertical-left;
     animation-duration:0.3s;
-    
+    animation-fill-mode: forwards;
     
     
     
 }
 
+.rotatap{
+     animation-name:flip-vertical-leftp;
+    animation-duration:0.3s;
+    animation-fill-mode: forwards;
+}
 
 
 .middlepuzzle.A.around0{
@@ -130,173 +135,173 @@ body{
 .middlepuzzle.around2{
     grid-column:51;
     grid-row:6;
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around3{
     grid-column:50;
     grid-row:7;    
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around4{
     grid-column:49;
     grid-row:8;    
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around5{
     grid-column:48;
     grid-row:8;    
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around6{
     grid-column:47;
     grid-row:8;    
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around7{
     grid-column:46;
     grid-row:8;    
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around8{
     grid-column:45;
     grid-row:7;    
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around9{
     grid-column:44;
     grid-row:6;    
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around10{
     grid-column:43;
     grid-row:5;    
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around11{
     grid-column:42;
     grid-row:5;    
-    background-color:black;
+    background-color:orange;
 }
  /*the left year descent*/
 .middlepuzzle.around12{
     grid-column:42;
     grid-row:5; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.around13{
     grid-column:42;
     grid-row:6; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around14{
     grid-column:42;
     grid-row:7; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around15{
     grid-column:42;
     grid-row:8; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around16{
     grid-column:42;
     grid-row:9; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around17{
     grid-column:42;
     grid-row:10; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around18{
     grid-column:42;
     grid-row:11; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around19{
     grid-column:42;
     grid-row:12; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around20{
     grid-column:42;
     grid-row:13; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around21{
     grid-column:42;
     grid-row:14; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around22{
     grid-column:42;
     grid-row:15; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around23{
     grid-column:43;
     grid-row:16; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around24{
     grid-column:44;
     grid-row:17; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around25{
     grid-column:45;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around26{
     grid-column:46;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around27{
     grid-column:47;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around28{
     grid-column:48;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around29{
     grid-column:49;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around33{
     grid-column:50;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around30{
     grid-column:51;
     grid-row:17; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around31{
     grid-column:52;
     grid-row:16; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.around32{
     grid-column:53;
     grid-row:15; 
-    background-color:black;
+    background-color:orange;
 }
 
 /*Body*/
@@ -304,209 +309,209 @@ body{
 .middlepuzzle.body0{
     grid-column:41;
     grid-row:16; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body1{
     grid-column:40;
     grid-row:16; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body2{
     grid-column:39;
     grid-row:16; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body3{
     grid-column:38;
     grid-row:16; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body4{
     grid-column:37;
     grid-row:17; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body5{
     grid-column:36;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body6{
     grid-column:36;
     grid-row:19; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body7{
     grid-column:36;
     grid-row:20; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body8{
     grid-column:36;
     grid-row:21; 
-    background-color:black;
+    background-color:orange;
 }
 
 /*tail around here*/
 .middlepuzzle.body9{
     grid-column:36;
     grid-row:22; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body10{
     grid-column:37;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body11{
     grid-column:38;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body12{
     grid-column:39;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body13{
     grid-column:40;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body14{
     grid-column:41;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 /*go up here dwioaugdawiudaouwdgaouwdgyuadfaufdauowfdyaowuydfaouwdfyauoydfwouawfyd*/
 .middlepuzzle.body24{
     grid-column:42;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body15{
     grid-column:43;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body16{
     grid-column:44;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body17{
     grid-column:45;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.body18{
     grid-column:46;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.body19{
     grid-column:47;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.body20{
     grid-column:48;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.body21{
     grid-column:49;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.body22{
     grid-column:50;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.body23{
     grid-column:51;
     grid-row:23; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.body25{
     grid-column:52;
     grid-row:22; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body26{
     grid-column:51;
     grid-row:21; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body27{
     grid-column:50;
     grid-row:21; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body28{
     grid-column:49;
     grid-row:21; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body29{
     grid-column:50;
     grid-row:20; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body30{
     grid-column:50;
     grid-row:19; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.body31{
     grid-column:42;
     grid-row:22; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.body32{
     grid-column:41;
     grid-row:21; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body33{
     grid-column:41;
     grid-row:20; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body34{
     grid-column:41;
     grid-row:19; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body35{
     grid-column:40;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body36{
     grid-column:39;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body37{
     grid-column:46;
     grid-row:22; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.body38{
     grid-column:46;
     grid-row:21; 
-    background-color:black;
+    background-color:orange;
 }
 
 
@@ -515,123 +520,123 @@ body{
 .middlepuzzle.tail0{
     grid-column:35;
     grid-row:22; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail1{
     grid-column:34;
     grid-row:22; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail2{
     grid-column:33;
     grid-row:22; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail3{
     grid-column:32;
     grid-row:22; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail4{
     grid-column:31;
     grid-row:21; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail5{
     grid-column:30;
     grid-row:20; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail6{
     grid-column:30;
     grid-row:19; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail7{
     grid-column:30;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail8{
     grid-column:30;
     grid-row:17; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail9{
     grid-column:30;
     grid-row:16; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail10{
     grid-column:31;
     grid-row:15; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail11{
     grid-column:32;
     grid-row:14; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail12{
     grid-column:33;
     grid-row:13; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail13{
     grid-column:34;
     grid-row:13; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail14{
     grid-column:35;
     grid-row:14; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail15{
     grid-column:35;
     grid-row:15; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail16{
     grid-column:34;
     grid-row:16; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail17{
     grid-column:33;
     grid-row:16; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail18{
     grid-column:32;
     grid-row:17; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail19{
     grid-column:32;
     grid-row:18; 
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.tail21{
     grid-column:32;
     grid-row:19; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail22{
     grid-column:33;
     grid-row:20; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail23{
     grid-column:34;
     grid-row:20; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.tail24{
     grid-column:35;
     grid-row:20; 
-    background-color:black;
+    background-color:orange;
 }
 
 /*The face!!!!!*/
@@ -639,52 +644,52 @@ body{
 .middlepuzzle.face0{
     grid-column:43;
     grid-row:15; 
-    background-color:pink;
+    background-color:orange;
 }
 .middlepuzzle.face1{
     grid-column:44;
     grid-row:15; 
-    background-color:pink;
+    background-color:orange;
 }
 .middlepuzzle.face2{
     grid-column:44;
     grid-row:14; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.face3{
     grid-column:45;
     grid-row:13; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.face4{
     grid-column:46;
     grid-row:14; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.face5{
     grid-column:49;
     grid-row:14; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.face6{
     grid-column:50;
     grid-row:13; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.face7{
     grid-column:51;
     grid-row:14; 
-    background-color:black;
+    background-color:orange;
 }
 .middlepuzzle.face8{
     grid-column:51;
     grid-row:15; 
-    background-color:pink;
+    background-color:orange;
 }
 .middlepuzzle.face9{
     grid-column:52;
     grid-row:15; 
-    background-color:pink;
+    background-color:orange;
 }
 
 
@@ -692,7 +697,7 @@ body{
 /*fokin hello*/
 /*Do some opacity stuff here*/
 .middlepuzzle.H{
-    background-color:black;
+    background-color:orange;
    
 }
 
@@ -717,7 +722,7 @@ body{
 }
 
 .middlepuzzle.E{
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.E.first{
@@ -743,7 +748,7 @@ body{
 }
 
 .middlepuzzle.L{
-    background-color:black;
+    background-color:orange;
    
 }
 
@@ -761,7 +766,7 @@ body{
 
 
 .middlepuzzle.LL{
-    background-color:black;
+    background-color:orange;
    
 }
 
@@ -778,7 +783,7 @@ body{
 }
 
 .middlepuzzle.O {
-    background-color:black;
+    background-color:orange;
 }
 
 .middlepuzzle.O.first{
@@ -840,6 +845,86 @@ body{
  * ----------------------------------------
  */
 
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position:absolute;
+    z-index: 9;
+    left:500px;
+    bottom:500px;
+    visibility:hidden;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+ 
+ .night{
+    
+    background-color: white ;
+    
+  }
+
+
+.day{
+    background-color:black ;
+
+}
 
 
 
@@ -872,7 +957,7 @@ body{
     100% {
       -webkit-transform: rotateY(-180deg);
               transform: rotateY(-180deg);
-              background-color:orange;
+              background-color:black;
     }
   }
 
@@ -884,10 +969,46 @@ body{
       100% {
         -webkit-transform: rotateY(-180deg);
                 transform: rotateY(-180deg);
-                background-color:orange;
+                background-color:black;
             }
   }
 
+
+  @-webkit-keyframes flip-vertical-leftp{
+ 
+
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(-180deg);
+              transform: rotateY(-180deg);
+    }
+  }
+  @keyframes flip-vertical-leftp {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(-180deg);
+              transform: rotateY(-180deg);
+              background-color:pink ;
+    }
+  }
+
+  @-moz-keyframes flip-vertical-leftp {
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+      }
+      100% {
+        -webkit-transform: rotateY(-180deg);
+                transform: rotateY(-180deg);
+                background-color:pink ;
+            }
+  }
 
 
 
